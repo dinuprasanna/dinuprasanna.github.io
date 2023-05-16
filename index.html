@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack UNO</title>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/clash-display');
+
+        .button {
+            box-sizing: border-box;
+            position: absolute;
+            width: 11.77vw;
+            height: 4.54vw;
+            border: 0.16vw solid #000000;
+            font-family: 'Clash Display';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2.08vw;
+            line-height: 2.08vw;
+            cursor: pointer;
+            fill: transparent;
+            background-color: #e6e6e6;
+
+            opacity: 0; /* Set initial opacity to 0 */
+            animation-name: appear;
+            animation-duration: 0.3s; /* Adjust duration as needed */
+            animation-delay: 1s; /* Delay appearance by 2 seconds */
+            animation-fill-mode: forwards;
+        }
+        .button:hover{
+            background-color: #F0683E;
+        }
+
+        @keyframes appear {
+             to {
+                 opacity: 1; /* At the end of the animation, set opacity to 1 */
+              }
+          }
+
+        .paragraph {
+            position: absolute;
+            width: 21.822vw;
+            height: 6.307vw;
+            left: 6.667vw;
+            top: 13.229vw;
+            font-family: 'Clash Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.67vw;
+            line-height: 2.03vw;
+            color: #000000;
+
+            opacity: 0; /* Set initial opacity to 0 */
+            animation-name: appear;
+            animation-duration: 0.3s; /* Adjust duration as needed */
+            animation-delay: 1s; /* Delay appearance by 2 seconds */
+            animation-fill-mode: forwards
+        }
+
+        .paragraph span {
+                font-weight: 500;
+        }
+
+        @keyframes appear {
+             to {
+                 opacity: 1; /* At the end of the animation, set opacity to 1 */
+              }
+        }
+
+        .about {
+            position: absolute;
+            width: 8.438vw;
+            height: 2.552vw;
+            left: 76.25vw;
+            top: 19.115vw;
+            font-family: 'Clash Display';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2.08vw;
+            line-height: 2.55vw;
+            color: #000000;
+
+            opacity: 0; /* Set initial opacity to 0 */
+            animation-name: appear;
+            animation-duration: 0.3s; /* Adjust duration as needed */
+            animation-delay: 1s; /* Delay appearance by 2 seconds */
+            animation-fill-mode: forwards
+            }
+        .about:hover{
+            color: #F0683E;
+        }
+            
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .gif-element {
+            position: absolute;
+            position: absolute;
+            width: 100vw;
+            height: 56.25vw;
+            left: 0;
+            top: 0;
+            background-image: url("Assets/Main page/Zoomy.11.gif");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+        }
+                        
+          
+    </style>
+</head>
+<body>
+    <div class="gif-element"></div>
+
+    <button style="left: 67.09vw;top: 12.24vw;"class="button"><a href=outcome.html style="text-decoration: none; color: inherit;">Research</button></body></a>
+    <button style="left: 81.04vw;top: 12.24vw;"class="button"><a href=outcome.html style="text-decoration: none; color: inherit;">Outcome</a></button>
+    <about class="about"><a href="about.html" style="text-decoration: none; color: inherit;">About-></a></about>
+
+    <paragraph class="paragraph">Apparently a technically complex project 
+        by <br><span><a href="https://www.instagram.com/dinuprasanna.k.3/" target="_blank" style="text-decoration: none; color: inherit;">Dinu Kennedy</a></span></paragraph>
+
+    <!-- <div class="gif-element">
+        <img src="Assets/Main page/Zoomy.11.gif" alt="Zoomy Stack">
+    </div> -->
+    
+
+
+</body>
+</html>
